@@ -1,0 +1,43 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #4285F4;
+    color: white;
+  
+    &__logo {
+      img {
+        width: 50px;
+      }
+    }
+  
+    &__menu {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        margin: 0 1rem;
+  
+        a {
+          color: white;
+          text-decoration: none;
+          font-weight: 500;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    &__user-icon {
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+    }
+  }
