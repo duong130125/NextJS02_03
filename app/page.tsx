@@ -6,6 +6,7 @@ import BT5 from "./BT5";
 import BT6 from "./BT6";
 import BT7 from "./BT7";
 import BT8 from "./BT8";
+import BT9 from "./BT9";
 
 export default function page() {
   return (
@@ -21,6 +22,8 @@ export default function page() {
       <BT7></BT7>
       <br />
       <BT8></BT8>
+      <br />
+      <BT9></BT9>
     </>
   );
 }
